@@ -1,22 +1,49 @@
 /* Custom styles for Two Four Labs website */
+
 body {
-  padding-top: 56px; /* Adjust padding to ensure navbar does not overlap content when using fixed top */
+  padding-top: 56px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F4F7F6; /* Light background to ease reading */
 }
 
 .navbar-brand {
   font-weight: bold;
+  color: #0056b3; /* Brand color */
+}
+
+.nav-link {
+  color: #007bff !important;
 }
 
 .jumbotron {
-  background-color: #f0f0f0; /* Light grey background for the jumbotron */
+  background-color: #009688; /* Teal background for a pop of color */
+  color: #ffffff; /* White text color */
 }
 
 .container h2 {
-  margin-top: 2rem; /* Spacing above section headers */
+  margin-top: 2rem;
+  color: #0056b3; /* Heading color */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Card shadow for depth */
+  transition: 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-body {
+  color: #0056b3; /* Consistent color scheme */
 }
 
 .footer {
-  background-color: #f8f9fa; /* Slightly different footer background for contrast */
-  margin-top: 2rem;
-  padding: 2rem 0;
+  background-color: #007bff; /* Matching the navbar */
+  color: white;
+  padding: 1rem 0;
+}
+
+.footer span {
+  opacity: 0.9;
 }
