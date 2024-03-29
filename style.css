@@ -1,0 +1,22 @@
+/* Custom styles for Two Four Labs website */
+body {
+  padding-top: 56px; /* Adjust padding to ensure navbar does not overlap content when using fixed top */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: #f0f0f0; /* Light grey background for the jumbotron */
+}
+
+.container h2 {
+  margin-top: 2rem; /* Spacing above section headers */
+}
+
+.footer {
+  background-color: #f8f9fa; /* Slightly different footer background for contrast */
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
